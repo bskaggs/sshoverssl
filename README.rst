@@ -9,6 +9,7 @@ Setup
 Put in .ssh/config
 
 .. code-block:: bash
+
   Host jump
     User jump
     ProxyCommand ~/PATH/TO/sshoverssl/connect.sh
