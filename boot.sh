@@ -13,8 +13,5 @@ END
 	sed -i -e 's/ENABLED=0/ENABLED=1/' /etc/default/stunnel4
 	/etc/init.d/stunnel4 restart
 
-	#useradd -m jump
-	#sudo -u jump mkdir ~jump/.ssh
-	#sudo -u jump echo 'SSHKEY' > ~jump/.ssh/authorized_keys	
 	touch /root/ready;
 fi
